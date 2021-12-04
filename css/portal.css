@@ -12,16 +12,19 @@ body{
     color: black;
     background-color: #f8f5f2;
 }
-.container{
+main{
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
-section{
+.textCathHolder{
     margin-top: 4em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     color:#292929;
+    position:relative;
 }
 section h2{
     color:#078080;
@@ -81,7 +84,8 @@ article{
 }
 
 @media screen and (max-width: 1300px) {
-    .custom-shape-divider-bottom-1637171995{
+    .custom-shape-divider-bottom-1637171995,
+    .custom-shape-divider-bottom-1637244606{
         visibility:hidden;
     }
 }
